@@ -1,0 +1,9 @@
+<el-select ref='materialSelection' clearable v-model="cd" placeholder="选择物料" filterable remote :remote-method="getKeys"
+          @change="getBom">
+          <el-option v-for="(item, index) in materialList" :key="index" :value="item.Id" :label="item.Name">
+            <span style="float: left">{{ item.Id }}</span>
+            <span style="float: left;margin:0 20px">{{ item.Ctrl }}</span>
+            <!-- <span style="float: left">{{ item.Ctrl }}</span> -->
+            <span style="float: right">{{ item.Name }}</span>
+          </el-option>
+        </el-select>

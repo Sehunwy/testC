@@ -1,0 +1,42 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    "no-namespace": false,
+    "no-implicit-dependencies": false,
+    "typedef-whitespace": false,
+    "arrow-parens": false,
+    "one-line": false,
+    "no-empty": false,
+    "no-trailing-whitespace": false,
+    "no-console": false,
+    "space-before-function-paren": false,
+    "space-within-parens": false,
+    "whitespace": false,
+    "trailing-comma": false,
+    "prefer-const": false,
+    "quotemark": [ false, "single" ],
+    "indent": [ false, "spaces", 2 ],
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-consecutive-blank-lines": false,
+    "vue/no-parsing-error": [ 2, {
+      "x-invalid-end-tag": false
+    } ],
+    "max-line-length": false,
+    "ban-types": false,
+    "max-classes-per-file": false,
+    "member-ordering": false,
+    "member-access": false,
+    "no-shadowed-variable": false,
+    "only-arrow-functions": false
+  }
+}

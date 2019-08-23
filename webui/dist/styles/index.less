@@ -1,0 +1,33 @@
+// @import "./color.less";
+@height: 80;
+.h_container {
+  display: block;
+  text-align: center;
+  background: green;
+  max-width: 768;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 10px;
+  border-color: blue;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  height: @height;
+  overflow: auto;
+  zoom: 1; //   float: unset;
+  //   height: @height;
+  button {
+    // display: inline;
+    height: 300px;
+    float: left;
+    width: 120px;
+    margin: 20px 10px 10px 10px;
+    /** top ,right ,down ,left */
+    border-color: blue;
+  }
+}
+
+@media screen and (min-width: 600px) {}
