@@ -13,7 +13,7 @@
     "@babel/core": "^7.2.2",
     "@types/baidumap-web-sdk": "^2.0.3",
     "@types/highcharts": "^5.0.32",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "element-ui": "^2.4.8",
     "eslint": "^5.7.0",
     "gojs": "^1.8.33",
