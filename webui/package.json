@@ -54,7 +54,7 @@
     "highcharts": "^6.2.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
-    "node-sass": "^4.9.4",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.0.3",
     "typescript": "^3.0.0",
     "typescript-ioc": "^1.2.4",
